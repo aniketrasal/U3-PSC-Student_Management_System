@@ -1,0 +1,70 @@
+#navbar{
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+#div1{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+button{
+  width: 200px;
+  height: 35px;
+  background-color: rgb(0, 0, 116);
+  margin-top: 10px;
+  margin-left: 48px;
+  
+}
+button>a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgb(223, 223, 223);
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    border: 1px solid #ddd;
+    color: white;
+    text-align: center;
+  }
+  .img{
+      width: 100px;
+      height: 100px;
+  }
+  h1{
+      text-align: center;
+  }
